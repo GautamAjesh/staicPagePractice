@@ -7,6 +7,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f5f5f5;
+    color: #2F4F4F;
 }
 
 header {
@@ -16,7 +17,30 @@ header {
     padding: 1rem;
 }
 
-.position-description {
+.logo img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.company-name {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.main-heading {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    color: rgb(12, 87, 215);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.job-description {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 1.5rem;
@@ -33,19 +57,28 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.position-description h2,
+.job-description h2,
 .company-info h2 {
-    color: #333;
+    color: rgb(123, 132, 228);
+    font-size: 1.5em;
+    font-weight: bold;
     margin-bottom: 0.5rem;
 }
 
-.position-description p,
+.job-description h3,
+.company-info h3 {
+    color: rgb(127, 170, 232);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.job-description p,
 .company-info p {
     margin-bottom: 1rem;
 }
 
-.position-description ul,
-.position-description ol,
+.job-description ul,
+.job-description ol,
 .company-info ul,
 .company-info ol {
     margin-left: 1.5rem;
